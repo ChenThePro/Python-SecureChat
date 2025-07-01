@@ -15,7 +15,7 @@
 - [System Architecture](#-system-architecture)
 - [Communication Protocol](#-communication-protocol)
 - [Database Schema](#-database-schema)
-- [Examples](#-examples)
+- [Examples](#%EF%B8%8F-examples)
 - [Security](#-security)
 - [Testing](#-testing)
 - [Known Limitations](#-known-limitations)
@@ -176,12 +176,10 @@ You can include screenshots or GIFs of the application here to showcase function
 
 To add images to this section, place your image files in a folder (e.g., `/assets/images/`) and use the following Markdown syntax:
 
-```markdown
 ![Login Screen](assets/images/home_page.png)
 ![User Screen](assets/images/main_page.png)
 ![Group Management](assets/images/user_page.png)
 ![Admin Screen](assets/images/admin_page.png)
-```
 
 ---
 
