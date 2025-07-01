@@ -15,7 +15,7 @@
 - [System Architecture](#-system-architecture)
 - [Communication Protocol](#-communication-protocol)
 - [Database Schema](#-database-schema)
-- [Examples](#%EF%B8%8F-examples)
+- [Visuals](#%EF%B8%8F-visuals)
 - [Security](#-security)
 - [Testing](#-testing)
 - [Known Limitations](#-known-limitations)
@@ -165,7 +165,7 @@ Includes tables like:
 
 ---
 
-## 🖼️ Examples
+## 🖼️ Visuals
 
 Below are visual highlights of key interfaces within Secure Chat. These screenshots illustrate the application's core functionality and user experience.
 
