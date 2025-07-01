@@ -1,4 +1,3 @@
-
 # Secure Chat
 
 > **A Secure Encrypted Communication System for Organizations**
@@ -7,23 +6,23 @@
 
 ## 🧭 Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [System Architecture](#system-architecture)
-- [Communication Protocol](#communication-protocol)
-- [Database Schema](#database-schema)
-- [Examples](#examples)
-- [Security](#security)
-- [Testing](#testing)
-- [Known Limitations](#known-limitations)
-- [Development Timeline](#development-timeline)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
+- [Introduction](#-introduction)
+- [Features](#-features)
+- [Technology Stack](#-technology-stack)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [System Architecture](#-system-architecture)
+- [Communication Protocol](#-communication-protocol)
+- [Database Schema](#-database-schema)
+- [Examples](#-examples)
+- [Security](#-security)
+- [Testing](#-testing)
+- [Known Limitations](#-known-limitations)
+- [Development Timeline](#-development-timeline)
+- [Troubleshooting](#-troubleshooting)
+- [Contributors](#-contributors)
+- [License](#-license)
 
 ---
 
