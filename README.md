@@ -167,18 +167,22 @@ Includes tables like:
 
 ## 🖼️ Examples
 
-You can include screenshots or GIFs of the application here to showcase functionality such as:
+Below are visual highlights of key interfaces within Secure Chat. These screenshots illustrate the application's core functionality and user experience.
 
-- Login screen
-- Main chat window
-- Group management interface
-- File transfer in action
-
-To add images to this section, place your image files in a folder (e.g., `/assets/images/`) and use the following Markdown syntax:
-
+🔐 Sign In / Sign Up
+Secure authentication interface with support for password recovery.
 ![Login Screen](assets/images/home_page.png)
+
+💬 Main Chat Interface
+Upon successful login or registration, users enter the central chat dashboard for managing direct and group conversations.
 ![User Screen](assets/images/main_page.png)
+
+👥 Contacts & Groups
+Easily manage contacts and create or modify groups via a dedicated interface.
 ![Group Management](assets/images/user_page.png)
+
+🛠️ Admin Controls
+Group administrators have access to advanced permissions, participant management, and moderation tools.
 ![Admin Screen](assets/images/admin_page.png)
 
 ---
