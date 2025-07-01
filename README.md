@@ -177,8 +177,10 @@ You can include screenshots or GIFs of the application here to showcase function
 To add images to this section, place your image files in a folder (e.g., `/assets/images/`) and use the following Markdown syntax:
 
 ```markdown
-![Login Screen](assets/images/login.png)
-![Group Management](assets/images/group_management.png)
+![Login Screen](assets/images/home_page.png)
+![User Screen](assets/images/main_page.png)
+![Group Management](assets/images/user_page.png)
+![Admin Screen](assets/images/admin_page.png)
 ```
 
 ---
