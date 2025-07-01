@@ -11,7 +11,7 @@
 - [Technology Stack](#-technology-stack)
 - [Project Structure](#-project-structure)
 - [Installation](#-installation)
-- [Usage](#-usage)
+- [Usage](#%EF%B8%8F-usage)
 - [System Architecture](#-system-architecture)
 - [Communication Protocol](#-communication-protocol)
 - [Database Schema](#-database-schema)
@@ -161,6 +161,62 @@ Includes tables like:
 - `Volumes`, `Sounds`, `Backgrounds`
 
 ---
+
+
+---
+
+## 🖼️ Examples
+
+You can include screenshots or GIFs of the application here to showcase functionality such as:
+
+- Login screen
+- Main chat window
+- Group management interface
+- File transfer in action
+
+To add images to this section, place your image files in a folder (e.g., `/assets/images/`) and use the following Markdown syntax:
+
+```markdown
+![Login Screen](assets/images/login.png)
+![Group Management](assets/images/group_management.png)
+```
+
+---
+
+## 🔐 Security
+
+Secure Chat incorporates multiple layers of security to ensure confidentiality, integrity, and availability of communication:
+
+### 🔒 Encryption
+
+- **AES (Advanced Encryption Standard)**: Used for symmetric encryption of messages and files during transmission.
+- **RSA**: Asymmetric encryption used to securely exchange AES keys between client and server.
+- **bcrypt**: For secure password hashing with salt before storage in the database.
+
+### 📜 Authentication & Validation
+
+- Custom protocol with secure credential verification.
+- Input validation against injection attacks (SQL injection mitigated using parameterized queries).
+- Password recovery with multi-step verification via email.
+
+### 🛡️ Network & Data Integrity
+
+- **MITM Protection**: All messages are encrypted to prevent man-in-the-middle attacks.
+- **End-to-End File Encryption**: Files are encrypted and compressed before transfer.
+- **Chunked Transfers**: Files are transferred in chunks to reduce risk of interruption or buffer overflow.
+
+### 🧠 DoS/DDoS Mitigation
+
+- Rate limiting based on IP address.
+- Basic CAPTCHA (optional) for login interfaces.
+- Request throttling and logging for suspicious activity.
+
+### ⚠️ Other Threats Addressed
+
+- File validation to prevent uploading malicious or oversized files.
+- Continuous audit of logs and client-server events for anomaly detection.
+
+> Security was a core motivation behind this project, and it adheres to modern best practices in network communication and secure software design.
 
 ## 🧪 Testing
 
